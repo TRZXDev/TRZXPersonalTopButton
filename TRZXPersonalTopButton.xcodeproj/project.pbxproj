@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11734B7F2C2BDC9E23247A7C /* Pods_TRZXPersonalTopButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD0E0BCC7940C5E939C885 /* Pods_TRZXPersonalTopButton.framework */; };
 		B70D45E71E5EDCA0000E2C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45E61E5EDCA0000E2C4D /* main.m */; };
 		B70D45EA1E5EDCA0000E2C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45E91E5EDCA0000E2C4D /* AppDelegate.m */; };
-		B70D45ED1E5EDCA0000E2C4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45EC1E5EDCA0000E2C4D /* ViewController.m */; };
 		B70D45F01E5EDCA0000E2C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D45EE1E5EDCA0000E2C4D /* Main.storyboard */; };
 		B70D45F21E5EDCA0000E2C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70D45F11E5EDCA0000E2C4D /* Assets.xcassets */; };
 		B70D45F51E5EDCA0000E2C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D45F31E5EDCA0000E2C4D /* LaunchScreen.storyboard */; };
 		B70D46001E5EDCA0000E2C4D /* TRZXPersonalTopButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45FF1E5EDCA0000E2C4D /* TRZXPersonalTopButtonTests.m */; };
 		B70D460B1E5EDCA0000E2C4D /* TRZXPersonalTopButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D460A1E5EDCA0000E2C4D /* TRZXPersonalTopButtonUITests.m */; };
+		B70D461B1E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D461A1E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.m */; };
+		B70D46241E5EDD3A000E2C4D /* NoLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D461D1E5EDD3A000E2C4D /* NoLabelView.m */; };
+		B70D46251E5EDD3A000E2C4D /* NoLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D461E1E5EDD3A000E2C4D /* NoLabelView.xib */; };
+		B70D46261E5EDD3A000E2C4D /* PersonalGuanZhuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46201E5EDD3A000E2C4D /* PersonalGuanZhuCell.m */; };
+		B70D46271E5EDD3A000E2C4D /* PersonalGuanZhuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D46211E5EDD3A000E2C4D /* PersonalGuanZhuCell.xib */; };
+		B70D46281E5EDD3A000E2C4D /* PersonalModell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46231E5EDD3A000E2C4D /* PersonalModell.m */; };
+		B70D462A1E5EDD3F000E2C4D /* 列表无内容@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46291E5EDD3F000E2C4D /* 列表无内容@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FB93284229C6251F9981014 /* Pods-TRZXPersonalTopButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalTopButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalTopButton/Pods-TRZXPersonalTopButton.debug.xcconfig"; sourceTree = "<group>"; };
+		A9BD0E0BCC7940C5E939C885 /* Pods_TRZXPersonalTopButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXPersonalTopButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D45E21E5EDCA0000E2C4D /* TRZXPersonalTopButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXPersonalTopButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D45E61E5EDCA0000E2C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B70D45E81E5EDCA0000E2C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B70D45E91E5EDCA0000E2C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B70D45EB1E5EDCA0000E2C4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B70D45EC1E5EDCA0000E2C4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B70D45EF1E5EDCA0000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B70D45F11E5EDCA0000E2C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70D45F41E5EDCA0000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		B70D46061E5EDCA0000E2C4D /* TRZXPersonalTopButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalTopButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D460A1E5EDCA0000E2C4D /* TRZXPersonalTopButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalTopButtonUITests.m; sourceTree = "<group>"; };
 		B70D460C1E5EDCA0000E2C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70D46191E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPersonalTopButtonController.h; sourceTree = "<group>"; };
+		B70D461A1E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalTopButtonController.m; sourceTree = "<group>"; };
+		B70D461C1E5EDD3A000E2C4D /* NoLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLabelView.h; sourceTree = "<group>"; };
+		B70D461D1E5EDD3A000E2C4D /* NoLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLabelView.m; sourceTree = "<group>"; };
+		B70D461E1E5EDD3A000E2C4D /* NoLabelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoLabelView.xib; sourceTree = "<group>"; };
+		B70D461F1E5EDD3A000E2C4D /* PersonalGuanZhuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalGuanZhuCell.h; sourceTree = "<group>"; };
+		B70D46201E5EDD3A000E2C4D /* PersonalGuanZhuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalGuanZhuCell.m; sourceTree = "<group>"; };
+		B70D46211E5EDD3A000E2C4D /* PersonalGuanZhuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalGuanZhuCell.xib; sourceTree = "<group>"; };
+		B70D46221E5EDD3A000E2C4D /* PersonalModell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalModell.h; sourceTree = "<group>"; };
+		B70D46231E5EDD3A000E2C4D /* PersonalModell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalModell.m; sourceTree = "<group>"; };
+		B70D46291E5EDD3F000E2C4D /* 列表无内容@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表无内容@2x.png"; sourceTree = "<group>"; };
+		FD9A7A04945BCDE83374CDB6 /* Pods-TRZXPersonalTopButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalTopButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalTopButton/Pods-TRZXPersonalTopButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11734B7F2C2BDC9E23247A7C /* Pods_TRZXPersonalTopButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3A7C1F5F6E7C5E9F0AF0F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD0E0BCC7940C5E939C885 /* Pods_TRZXPersonalTopButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE08C29721DE866F9568041 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FB93284229C6251F9981014 /* Pods-TRZXPersonalTopButton.debug.xcconfig */,
+				FD9A7A04945BCDE83374CDB6 /* Pods-TRZXPersonalTopButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B70D45D91E5EDCA0000E2C4D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				B70D45FE1E5EDCA0000E2C4D /* TRZXPersonalTopButtonTests */,
 				B70D46091E5EDCA0000E2C4D /* TRZXPersonalTopButtonUITests */,
 				B70D45E31E5EDCA0000E2C4D /* Products */,
+				3AE08C29721DE866F9568041 /* Pods */,
+				1C3A7C1F5F6E7C5E9F0AF0F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +140,9 @@
 		B70D45E41E5EDCA0000E2C4D /* TRZXPersonalTopButton */ = {
 			isa = PBXGroup;
 			children = (
+				B70D46181E5EDCE8000E2C4D /* TRZXPersonalTopButton */,
 				B70D45E81E5EDCA0000E2C4D /* AppDelegate.h */,
 				B70D45E91E5EDCA0000E2C4D /* AppDelegate.m */,
-				B70D45EB1E5EDCA0000E2C4D /* ViewController.h */,
-				B70D45EC1E5EDCA0000E2C4D /* ViewController.m */,
 				B70D45EE1E5EDCA0000E2C4D /* Main.storyboard */,
 				B70D45F11E5EDCA0000E2C4D /* Assets.xcassets */,
 				B70D45F31E5EDCA0000E2C4D /* LaunchScreen.storyboard */,
@@ -140,6 +178,24 @@
 			path = TRZXPersonalTopButtonUITests;
 			sourceTree = "<group>";
 		};
+		B70D46181E5EDCE8000E2C4D /* TRZXPersonalTopButton */ = {
+			isa = PBXGroup;
+			children = (
+				B70D46291E5EDD3F000E2C4D /* 列表无内容@2x.png */,
+				B70D461C1E5EDD3A000E2C4D /* NoLabelView.h */,
+				B70D461D1E5EDD3A000E2C4D /* NoLabelView.m */,
+				B70D461E1E5EDD3A000E2C4D /* NoLabelView.xib */,
+				B70D461F1E5EDD3A000E2C4D /* PersonalGuanZhuCell.h */,
+				B70D46201E5EDD3A000E2C4D /* PersonalGuanZhuCell.m */,
+				B70D46211E5EDD3A000E2C4D /* PersonalGuanZhuCell.xib */,
+				B70D46221E5EDD3A000E2C4D /* PersonalModell.h */,
+				B70D46231E5EDD3A000E2C4D /* PersonalModell.m */,
+				B70D46191E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.h */,
+				B70D461A1E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.m */,
+			);
+			path = TRZXPersonalTopButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B70D460F1E5EDCA0000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalTopButton" */;
 			buildPhases = (
+				63C3C855F67CE97F7ECC0055 /* [CP] Check Pods Manifest.lock */,
 				B70D45DE1E5EDCA0000E2C4D /* Sources */,
 				B70D45DF1E5EDCA0000E2C4D /* Frameworks */,
 				B70D45E01E5EDCA0000E2C4D /* Resources */,
+				450A444455DAF27C240C5B37 /* [CP] Embed Pods Frameworks */,
+				6DD2B4D204E22CBD3453CBE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +305,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70D46251E5EDD3A000E2C4D /* NoLabelView.xib in Resources */,
 				B70D45F51E5EDCA0000E2C4D /* LaunchScreen.storyboard in Resources */,
+				B70D462A1E5EDD3F000E2C4D /* 列表无内容@2x.png in Resources */,
 				B70D45F21E5EDCA0000E2C4D /* Assets.xcassets in Resources */,
+				B70D46271E5EDD3A000E2C4D /* PersonalGuanZhuCell.xib in Resources */,
 				B70D45F01E5EDCA0000E2C4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +330,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		450A444455DAF27C240C5B37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalTopButton/Pods-TRZXPersonalTopButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C3C855F67CE97F7ECC0055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD2B4D204E22CBD3453CBE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalTopButton/Pods-TRZXPersonalTopButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B70D45DE1E5EDCA0000E2C4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70D45ED1E5EDCA0000E2C4D /* ViewController.m in Sources */,
+				B70D46281E5EDD3A000E2C4D /* PersonalModell.m in Sources */,
+				B70D46261E5EDD3A000E2C4D /* PersonalGuanZhuCell.m in Sources */,
+				B70D46241E5EDD3A000E2C4D /* NoLabelView.m in Sources */,
+				B70D461B1E5EDCFC000E2C4D /* TRZXPersonalTopButtonController.m in Sources */,
 				B70D45EA1E5EDCA0000E2C4D /* AppDelegate.m in Sources */,
 				B70D45E71E5EDCA0000E2C4D /* main.m in Sources */,
 			);
@@ -422,6 +535,7 @@
 		};
 		B70D46101E5EDCA0000E2C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB93284229C6251F9981014 /* Pods-TRZXPersonalTopButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalTopButton/Info.plist;
@@ -433,6 +547,7 @@
 		};
 		B70D46111E5EDCA0000E2C4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9A7A04945BCDE83374CDB6 /* Pods-TRZXPersonalTopButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalTopButton/Info.plist;

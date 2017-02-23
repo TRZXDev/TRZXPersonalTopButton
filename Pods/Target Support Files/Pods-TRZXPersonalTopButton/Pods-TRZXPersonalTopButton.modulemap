@@ -1,0 +1,6 @@
+framework module Pods_TRZXPersonalTopButton {
+  umbrella header "Pods-TRZXPersonalTopButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
